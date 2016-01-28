@@ -6,12 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Bootstrap 101 Template</title>
-    
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div>Hello, world!</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">col-sm-12 col-md-6 col-lg-6</div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+                <div class="col-sm-4">col-sm-4</div>
+                <div class="col-sm-4">col-sm-4</div>
+                <div class="col-sm-4">col-sm-4</div>
+            </div>
+        </div>
+        <div class="clearfix visible-lg">clearfix visible-lg</div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+            <div class="row">
+                <div class="col-sm-4">col-sm-4</div>
+                <div class="col-sm-3 col-lg-offset-1">col-sm-3 col-lg-offset-1</div>
+                <div class="col-sm-4">col-sm-4</div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">col-sm-12 col-md-6 col-lg-6</div>
+        <div class="clearfix visible-lg">clearfix visible-lg</div>
+            <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+            <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+    </div>
+</div>
 </body>
 </html>
