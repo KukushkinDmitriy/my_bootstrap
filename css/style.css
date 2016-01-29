@@ -1,2 +1,12 @@
-
+.row div{
+    min-height: 100px;
+    background: #eee;
+    box-shadow: 0 0 1px #000 inset;
+}
+.row div div:nth-child(2n){
+    background: #1b6d85;
+}
+#map{
+    min-height: 500px;
+}
 
