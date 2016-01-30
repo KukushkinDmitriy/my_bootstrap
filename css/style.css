@@ -9,4 +9,6 @@
 #map{
     min-height: 500px;
 }
-
+.container:nth-child(2n+1){
+    background: #eee;
+}
